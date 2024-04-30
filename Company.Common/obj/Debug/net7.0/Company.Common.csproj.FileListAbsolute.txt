@@ -1,0 +1,15 @@
+C:\Users\Jonathan L\source\repos\Company\Company.Common\bin\Debug\net7.0\Company.Common.deps.json
+C:\Users\Jonathan L\source\repos\Company\Company.Common\bin\Debug\net7.0\Company.Common.dll
+C:\Users\Jonathan L\source\repos\Company\Company.Common\bin\Debug\net7.0\Company.Common.pdb
+C:\Users\Jonathan L\source\repos\Company\Company.Common\obj\Debug\net7.0\Company.Common.csproj.AssemblyReference.cache
+C:\Users\Jonathan L\source\repos\Company\Company.Common\obj\Debug\net7.0\Company.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jonathan L\source\repos\Company\Company.Common\obj\Debug\net7.0\Company.Common.AssemblyInfoInputs.cache
+C:\Users\Jonathan L\source\repos\Company\Company.Common\obj\Debug\net7.0\Company.Common.AssemblyInfo.cs
+C:\Users\Jonathan L\source\repos\Company\Company.Common\obj\Debug\net7.0\Company.Common.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan L\source\repos\Company\Company.Common\obj\Debug\net7.0\Company.Common.dll
+C:\Users\Jonathan L\source\repos\Company\Company.Common\obj\Debug\net7.0\refint\Company.Common.dll
+C:\Users\Jonathan L\source\repos\Company\Company.Common\obj\Debug\net7.0\Company.Common.pdb
+C:\Users\Jonathan L\source\repos\Company\Company.Common\obj\Debug\net7.0\ref\Company.Common.dll
+C:\Users\Jonathan L\source\repos\Company\Company.Common\bin\Debug\net7.0\Company.Data.dll
+C:\Users\Jonathan L\source\repos\Company\Company.Common\bin\Debug\net7.0\Company.Data.pdb
+C:\Users\Jonathan L\source\repos\Company\Company.Common\obj\Debug\net7.0\Company.Common.csproj.CopyComplete
