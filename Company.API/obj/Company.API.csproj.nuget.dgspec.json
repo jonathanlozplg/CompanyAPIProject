@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jonathan L\\source\\repos\\Company\\CompanyAPIProject\\Company.API\\Company.API.csproj": {}
+    "C:\\Users\\Jonathan L\\Source\\Repos\\CompanyAPIProject\\Company.API\\Company.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jonathan L\\source\\repos\\Company\\CompanyAPIProject\\Company.API\\Company.API.csproj": {
+    "C:\\Users\\Jonathan L\\Source\\Repos\\CompanyAPIProject\\Company.API\\Company.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jonathan L\\source\\repos\\Company\\CompanyAPIProject\\Company.API\\Company.API.csproj",
+        "projectUniqueName": "C:\\Users\\Jonathan L\\Source\\Repos\\CompanyAPIProject\\Company.API\\Company.API.csproj",
         "projectName": "Company.API",
-        "projectPath": "C:\\Users\\Jonathan L\\source\\repos\\Company\\CompanyAPIProject\\Company.API\\Company.API.csproj",
+        "projectPath": "C:\\Users\\Jonathan L\\Source\\Repos\\CompanyAPIProject\\Company.API\\Company.API.csproj",
         "packagesPath": "C:\\Users\\Jonathan L\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jonathan L\\source\\repos\\Company\\CompanyAPIProject\\Company.API\\obj\\",
+        "outputPath": "C:\\Users\\Jonathan L\\Source\\Repos\\CompanyAPIProject\\Company.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -34,11 +34,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Jonathan L\\source\\repos\\Company\\CompanyAPIProject\\Company.Common\\Company.Common.csproj": {
-                "projectPath": "C:\\Users\\Jonathan L\\source\\repos\\Company\\CompanyAPIProject\\Company.Common\\Company.Common.csproj"
+              "C:\\Users\\Jonathan L\\Source\\Repos\\CompanyAPIProject\\Company.Common\\Company.Common.csproj": {
+                "projectPath": "C:\\Users\\Jonathan L\\Source\\Repos\\CompanyAPIProject\\Company.Common\\Company.Common.csproj"
               },
-              "C:\\Users\\Jonathan L\\source\\repos\\Company\\CompanyAPIProject\\Company.Data\\Company.Data.csproj": {
-                "projectPath": "C:\\Users\\Jonathan L\\source\\repos\\Company\\CompanyAPIProject\\Company.Data\\Company.Data.csproj"
+              "C:\\Users\\Jonathan L\\Source\\Repos\\CompanyAPIProject\\Company.Data\\Company.Data.csproj": {
+                "projectPath": "C:\\Users\\Jonathan L\\Source\\Repos\\CompanyAPIProject\\Company.Data\\Company.Data.csproj"
               }
             }
           }
@@ -113,14 +113,14 @@
         }
       }
     },
-    "C:\\Users\\Jonathan L\\source\\repos\\Company\\CompanyAPIProject\\Company.Common\\Company.Common.csproj": {
+    "C:\\Users\\Jonathan L\\Source\\Repos\\CompanyAPIProject\\Company.Common\\Company.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jonathan L\\source\\repos\\Company\\CompanyAPIProject\\Company.Common\\Company.Common.csproj",
+        "projectUniqueName": "C:\\Users\\Jonathan L\\Source\\Repos\\CompanyAPIProject\\Company.Common\\Company.Common.csproj",
         "projectName": "Company.Common",
-        "projectPath": "C:\\Users\\Jonathan L\\source\\repos\\Company\\CompanyAPIProject\\Company.Common\\Company.Common.csproj",
+        "projectPath": "C:\\Users\\Jonathan L\\Source\\Repos\\CompanyAPIProject\\Company.Common\\Company.Common.csproj",
         "packagesPath": "C:\\Users\\Jonathan L\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jonathan L\\source\\repos\\Company\\CompanyAPIProject\\Company.Common\\obj\\",
+        "outputPath": "C:\\Users\\Jonathan L\\Source\\Repos\\CompanyAPIProject\\Company.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -142,8 +142,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Jonathan L\\source\\repos\\Company\\CompanyAPIProject\\Company.Data\\Company.Data.csproj": {
-                "projectPath": "C:\\Users\\Jonathan L\\source\\repos\\Company\\CompanyAPIProject\\Company.Data\\Company.Data.csproj"
+              "C:\\Users\\Jonathan L\\Source\\Repos\\CompanyAPIProject\\Company.Data\\Company.Data.csproj": {
+                "projectPath": "C:\\Users\\Jonathan L\\Source\\Repos\\CompanyAPIProject\\Company.Data\\Company.Data.csproj"
               }
             }
           }
@@ -183,14 +183,14 @@
         }
       }
     },
-    "C:\\Users\\Jonathan L\\source\\repos\\Company\\CompanyAPIProject\\Company.Data\\Company.Data.csproj": {
+    "C:\\Users\\Jonathan L\\Source\\Repos\\CompanyAPIProject\\Company.Data\\Company.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jonathan L\\source\\repos\\Company\\CompanyAPIProject\\Company.Data\\Company.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Jonathan L\\Source\\Repos\\CompanyAPIProject\\Company.Data\\Company.Data.csproj",
         "projectName": "Company.Data",
-        "projectPath": "C:\\Users\\Jonathan L\\source\\repos\\Company\\CompanyAPIProject\\Company.Data\\Company.Data.csproj",
+        "projectPath": "C:\\Users\\Jonathan L\\Source\\Repos\\CompanyAPIProject\\Company.Data\\Company.Data.csproj",
         "packagesPath": "C:\\Users\\Jonathan L\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jonathan L\\source\\repos\\Company\\CompanyAPIProject\\Company.Data\\obj\\",
+        "outputPath": "C:\\Users\\Jonathan L\\Source\\Repos\\CompanyAPIProject\\Company.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
