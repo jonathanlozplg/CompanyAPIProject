@@ -27,7 +27,7 @@ namespace Company.API.Controllers
                     EmployeeID = e.EmployeeID,
                     FirstName = e.FirstName,
                     LastName = e.LastName,
-                    DepartmentID = e.DepartmentID  // Ensure this is selected
+                    DepartmentID = e.DepartmentID
                 })
                 .ToListAsync();
 
@@ -44,7 +44,7 @@ namespace Company.API.Controllers
                     EmployeeID = e.EmployeeID,
                     FirstName = e.FirstName,
                     LastName = e.LastName,
-                    DepartmentID = e.DepartmentID  // Ensure this is selected
+                    DepartmentID = e.DepartmentID
                 })
                 .FirstOrDefaultAsync();
 
@@ -63,7 +63,7 @@ namespace Company.API.Controllers
             {
                 FirstName = employeeDto.FirstName,
                 LastName = employeeDto.LastName,
-                DepartmentID = employeeDto.DepartmentID  // Assign DepartmentID from DTO
+                DepartmentID = employeeDto.DepartmentID
             };
 
             _context.Employees.Add(employee);
@@ -74,7 +74,6 @@ namespace Company.API.Controllers
             }
             catch (DbUpdateException ex)
             {
-                // Handle cases where the DepartmentID might be invalid or missing
                 return BadRequest(ex.InnerException?.Message ?? ex.Message);
             }
         }
@@ -95,7 +94,7 @@ namespace Company.API.Controllers
 
             employee.FirstName = employeeDto.FirstName;
             employee.LastName = employeeDto.LastName;
-            employee.DepartmentID = employeeDto.DepartmentID;  // Update DepartmentID
+            employee.DepartmentID = employeeDto.DepartmentID;
 
             try
             {
