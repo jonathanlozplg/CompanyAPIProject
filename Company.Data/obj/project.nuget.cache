@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TRTmKzrqBF5abJAvpo2HwsCeTCaV/uTm/KyyxdYF4pxzYFclR8O8Zdhm6/tzb9oNeKBmFupU+KtMyI9zaEnHMw==",
+  "dgSpecHash": "HAnQ5+6mqHXRGSa/h1rs64EdkP9xRMvGGf7REWYphP/FXk5FYt0H0aLOgcxQqBzXl7J0xbH7bz0HFng70Dkp8Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jonathan L\\source\\repos\\Company\\Company.Data\\Company.Data.csproj",
+  "projectFilePath": "C:\\Users\\Jonathan L\\source\\repos\\Company\\CompanyAPIProject\\Company.Data\\Company.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jonathan L\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Jonathan L\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
