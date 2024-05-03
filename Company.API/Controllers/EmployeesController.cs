@@ -26,7 +26,8 @@ namespace Company.API.Controllers
                 {
                     EmployeeID = e.EmployeeID,
                     FirstName = e.FirstName,
-                    LastName = e.LastName
+                    LastName = e.LastName,
+                    DepartmentID = e.DepartmentID  // Ensure this is selected
                 })
                 .ToListAsync();
 
@@ -42,7 +43,8 @@ namespace Company.API.Controllers
                 {
                     EmployeeID = e.EmployeeID,
                     FirstName = e.FirstName,
-                    LastName = e.LastName
+                    LastName = e.LastName,
+                    DepartmentID = e.DepartmentID  // Ensure this is selected
                 })
                 .FirstOrDefaultAsync();
 
@@ -60,13 +62,21 @@ namespace Company.API.Controllers
             var employee = new Company.Data.Models.Employee
             {
                 FirstName = employeeDto.FirstName,
-                LastName = employeeDto.LastName
+                LastName = employeeDto.LastName,
+                DepartmentID = employeeDto.DepartmentID  // Assign DepartmentID from DTO
             };
 
             _context.Employees.Add(employee);
-            await _context.SaveChangesAsync();
-
-            return CreatedAtAction(nameof(GetEmployee), new { id = employee.EmployeeID }, employeeDto);
+            try
+            {
+                await _context.SaveChangesAsync();
+                return CreatedAtAction(nameof(GetEmployee), new { id = employee.EmployeeID }, employeeDto);
+            }
+            catch (DbUpdateException ex)
+            {
+                // Handle cases where the DepartmentID might be invalid or missing
+                return BadRequest(ex.InnerException?.Message ?? ex.Message);
+            }
         }
 
         [HttpPut("{id}")]
@@ -85,8 +95,7 @@ namespace Company.API.Controllers
 
             employee.FirstName = employeeDto.FirstName;
             employee.LastName = employeeDto.LastName;
-
-            _context.Entry(employee).State = EntityState.Modified;
+            employee.DepartmentID = employeeDto.DepartmentID;  // Update DepartmentID
 
             try
             {
@@ -121,6 +130,5 @@ namespace Company.API.Controllers
 
             return NoContent();
         }
-
     }
 }
