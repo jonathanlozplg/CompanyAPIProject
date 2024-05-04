@@ -1,44 +1,37 @@
 {
-    "name": "Company API Development",
-    "build": {
+  "name": "Company API Development",
+  "build": {
       "dockerfile": "Dockerfile",
       "args": {
-        "VARIANT": "7.0",
-        "INSTALL_NODE": "true",
-        "NODE_VERSION": "lts/*"
+          "VARIANT": "7.0",
+          "INSTALL_NODE": "true",
+          "NODE_VERSION": "lts/*"
       }
-    },
-    "customizations": {
+  },
+  "customizations": {
       "vscode": {
-        "extensions": [
-          "ms-dotnettools.csharp",
-          "ms-vscode.vscode-sqlite",
-          "ms-azuretools.vscode-docker"
-        ],
-        "settings": {
-            "terminal.integrated.defaultProfile.linux": "bash"
-        }
+          "extensions": [
+              "ms-dotnettools.csharp",
+              "ms-vscode.vscode-sqlite",
+              "ms-azuretools.vscode-docker"
+          ],
+          "settings": {
+              "terminal.integrated.defaultProfile.linux": "bash"
+          }
       }
-    },
-    "forwardPorts": [
-        5062,
-        7260,
-        1433
-      ],
-    "postCreateCommand": "dotnet restore",
-    "remoteUser": "vscode",
-    "runArgs": [
+  },
+  "forwardPorts": [5062, 7260],
+  "remoteUser": "vscode",
+  "runArgs": [
       "--cap-add=SYS_PTRACE",
       "--security-opt",
       "seccomp=unconfined"
-    ],
-    "containerEnv": {
+  ],
+  "containerEnv": {
       "ASPNETCORE_ENVIRONMENT": "Development",
-      "ASPNETCORE_URLS": "https://+7260;http://+5062",
-      "DOTNET_USE_POLLING_FILE_WATCHER": "1"
-    },
-    "mounts": [
+      "ASPNETCORE_URLS": "https://+7260;http://+5062"
+  },
+  "mounts": [
       "source=${localWorkspaceFolder}/.data,target=/data,type=bind,consistency=cached"
-    ]
+  ]
 }
-  
